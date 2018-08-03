@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="d22ff40c4fb313006bc88020a310c7cf" sys_domain="global" table="x_238623_test_my_l_test_books" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 12:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>962ff40c4fb313006bc88020a310c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238623_test_my_l_test_books" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">d22ff40c4fb313006bc88020a310c7cf</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">962fb40c4fb313006bc88020a310c7c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 12:56:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 12:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>922ff40c4fb313006bc88020a310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238623_test_my_l_test_books" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">d22ff40c4fb313006bc88020a310c7cf</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">962ff40c4fb313006bc88020a310c7ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 12:56:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 13:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62794dc04ff313006bc88020a310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238623_test_my_l_test_books" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">d22ff40c4fb313006bc88020a310c7cf</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_238623_test_my_l_test_books" sys_domain="global" view="522fb40c4fb313006bc88020a310c7c5">a6790dc04ff313006bc88020a310c78c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 13:41:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_238623_test_my_l_test_books</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-03 12:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d22ff40c4fb313006bc88020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_238623_test_my_l_test_books</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d22ff40c4fb313006bc88020a310c7cf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-03 12:56:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Admin" name="Admin">522fb40c4fb313006bc88020a310c7c5</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

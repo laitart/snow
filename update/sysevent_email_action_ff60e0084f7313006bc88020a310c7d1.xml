@@ -36,7 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${sys_updated_by},</p>
+        <message_html><![CDATA[<p>Dear Borrowed by: ${borrowed_by.name},</p>
 <p>Unfortunately you haven't returned a book on time, please do it as soon as possible.</p>
 <p>Title: ${title}</p>
 <p>Author: ${author}</p>
@@ -48,7 +48,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>sys_updated_by</recipient_fields>
+        <recipient_fields>borrowed_by</recipient_fields>
         <recipient_groups/>
         <recipient_users>idol123@o2.pl</recipient_users>
         <reply_to/>
@@ -63,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff60e0084f7313006bc88020a310c7d1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Overdue Book My Library App</sys_name>
         <sys_overrides/>
         <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
         <sys_update_name>sysevent_email_action_ff60e0084f7313006bc88020a310c7d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-03 11:02:07</sys_updated_on>
+        <sys_updated_on>2018-08-03 13:52:32</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

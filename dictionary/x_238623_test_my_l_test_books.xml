@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Test Books" max_length="40" name="x_238623_test_my_l_test_books" type="collection">
+    <element audit="true" label="Test Books" max_length="40" name="x_238623_test_my_l_test_books" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Author" mandatory="true" max_length="32" name="author" reference="x_238623_test_my_l_test_authors" type="reference"/>
+        <element label="Borrowed by" max_length="32" name="borrowed_by" reference="sys_user" type="reference"/>
         <element choice="1" label="Genre" mandatory="true" max_length="20" name="genre" type="string">
             <choice>
                 <element label="Crime" sequence="0" value="crime"/>
@@ -21,6 +22,9 @@
         <element label="Publication date" max_length="40" name="u_publication_date" type="glide_date"/>
         <element label="Return by" max_length="40" name="u_return_by" type="due_date"/>
         <index name="index">
+            <element name="borrowed_by"/>
+        </index>
+        <index name="index2">
             <element name="author"/>
         </index>
     </element>
