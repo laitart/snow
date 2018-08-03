@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b571af634fe313006bc88020a310c724" sys_domain="global" table="x_238623_test_my_l_test_authors" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 11:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d71af634fe313006bc88020a310c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238623_test_my_l_test_authors" name="x_238623_test_my_l_test_authors" sys_domain="global" view="Default view">b571af634fe313006bc88020a310c724</sys_ui_form>
+            <sys_ui_section caption="Authors" display_value="Authors" name="x_238623_test_my_l_test_authors" sys_domain="global" view="Default view">a52ce6674f6313006bc88020a310c7fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 11:28:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 11:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7971af634fe313006bc88020a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_238623_test_my_l_test_authors" name="x_238623_test_my_l_test_authors" sys_domain="global" view="Default view">b571af634fe313006bc88020a310c724</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_238623_test_my_l_test_authors" sys_domain="global" view="Default view">75712f634fe313006bc88020a310c763</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 11:28:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_238623_test_my_l_test_authors</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 11:28:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b571af634fe313006bc88020a310c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_238623_test_my_l_test_authors</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b571af634fe313006bc88020a310c724</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 11:28:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

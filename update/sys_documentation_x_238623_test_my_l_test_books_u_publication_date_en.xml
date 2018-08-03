@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_publication_date" label="Publication date" language="en" table="x_238623_test_my_l_test_books">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_publication_date</element>
+            <help/>
+            <hint/>
+            <label>Publication date</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <plural>Publication dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:30:15</sys_created_on>
+            <sys_id>299fa72f4fe313006bc88020a310c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Publication date</sys_name>
+            <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+            <sys_update_name>sys_documentation_x_238623_test_my_l_test_books_u_publication_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:30:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

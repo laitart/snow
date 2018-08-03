@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="genre" table="x_238623_test_my_l_test_books" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52103f2f4fe313006bc88020a310c7b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Crime</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a95237af4fe313006bc88020a310c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>crime</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92103f2f4fe313006bc88020a310c7b6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fantasy</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>295237af4fe313006bc88020a310c74c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>fantasy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12103f2f4fe313006bc88020a310c7b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genre</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Science fiction</label>
+            <language>en</language>
+            <name>x_238623_test_my_l_test_books</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:42:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a55237af4fe313006bc88020a310c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:42:16</sys_updated_on>
+            <value>science_fiction</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>genre</element>
+            <name>x_238623_test_my_l_test_books</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-02 12:32:30</sys_created_on>
+            <sys_id>5e103f2f4fe313006bc88020a310c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>genre</sys_name>
+            <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+            <sys_update_name>sys_choice_x_238623_test_my_l_test_books_genre</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-02 12:32:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Test Authors" max_length="40" name="x_238623_test_my_l_test_authors" type="collection">
+        <element label="FIrst Name" mandatory="true" max_length="20" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="20" name="last_name" type="string"/>
+        <element calculation="if (current.first_name.nil() &amp;&amp; current.last_name.nil() &amp;&amp; !current.name.nil()) {&#13;&#10;  var names = current.name.toString().split(&quot; &quot;);&#13;&#10;  if (names.length &gt; 1) {&#13;&#10;    current.first_name = names[0];&#13;&#10;    names.shift();&#13;&#10;    current.last_name = names.join(&quot; &quot;);&#13;&#10;  } else &#13;&#10;    current.last_name = names[0];&#13;&#10;}  &#13;&#10;&#13;&#10;if(current.first_name.nil()) { &#13;&#10;    current.last_name; &#13;&#10;  } else { &#13;&#10;    current.first_name + ' ' + current.last_name;&#13;&#10;  }" label="Name" max_length="20" name="name" read_only="true" type="string" virtual="true"/>
+    </element>
+</database>

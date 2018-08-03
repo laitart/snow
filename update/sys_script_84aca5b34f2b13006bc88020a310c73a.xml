@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_238623_test_my_l_test_books</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>My Library App Return by value</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Calculate current date and add 7 days, so it makes the Return by date
+	var returnby = new GlideDateTime();
+	returnby.addDaysLocalTime(7);
+	
+	// Set Return by field if state is 'borrowed'
+	 if(current.getValue('state') == 'borrowed') {
+		 gs.addInfoMessage("Please return the book before: " + returnby + ". Happy reading!");
+		 current.setValue('u_return_by', returnby);
+	 }
+	
+		// Reset Return by field if state is 'returned', set the state value to 'available'
+	 if(current.getValue('state') == 'returned') {
+		 gs.addInfoMessage("Thanks for returning te book!");
+		 current.setValue('u_return_by', 'null');
+		 current.setValue('state', 'available');
+	 }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-02 21:45:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84aca5b34f2b13006bc88020a310c73a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>My Library App Return by value</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+        <sys_update_name>sys_script_84aca5b34f2b13006bc88020a310c73a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-02 22:38:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=84aca5b34f2b13006bc88020a310c73a"/>
+</record_update>
