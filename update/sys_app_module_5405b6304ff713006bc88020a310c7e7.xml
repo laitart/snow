@@ -7,38 +7,38 @@
         <content_page/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>Add a new book to the database</hint>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>NEW</link_type>
         <map_page/>
-        <mobile_title>Test Books</mobile_title>
+        <mobile_title>Add Book</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_238623_test_my_l_test_books</name>
-        <order>400</order>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_238623_test_my_l.test_books_user,x_238623_test_my_l.admin,x_238623_test_my_l.test_authors_user</roles>
+        <roles>x_238623_test_my_l.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-02 11:33:59</sys_created_on>
+        <sys_created_on>2018-08-06 05:33:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ddb267a34fe313006bc88020a310c7d8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Test Books</sys_name>
+        <sys_id>5405b6304ff713006bc88020a310c7e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test Add a Book</sys_name>
         <sys_overrides/>
         <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
-        <sys_update_name>sys_app_module_ddb267a34fe313006bc88020a310c7d8</sys_update_name>
+        <sys_update_name>sys_app_module_5405b6304ff713006bc88020a310c7e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 11:57:03</sys_updated_on>
+        <sys_updated_on>2018-08-06 06:07:33</sys_updated_on>
         <timeline_page/>
-        <title>Test Books</title>
+        <title>Test Add a Book</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Test_Add_a_Book</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

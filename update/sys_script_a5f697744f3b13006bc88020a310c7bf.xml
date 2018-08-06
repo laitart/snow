@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_238623_test_my_l_test_books</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_238623_test_my_l_test_books">titleISNOTEMPTY^EQ<item endquery="false" field="title" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p><strong>Borrowing a book:</strong></p>
+<p>If you wish to borrow a book please change the state from &#34;Available&#34; to &#34;Borrowed&#34; and update the record.</p>
+<p><strong>Returning a book:</strong></p>
+<p>If you wish to return a book please change the state from &#34;Borrowed&#34; to &#34;Returned&#34; and update the record.</p>]]></message>
+        <name>User Instructions - Borrow and Return</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	// User Instructions - Borrow and Return
+	gs.addInfoMessage('<b>Borrowing a book:</b> If you wish to borrow a book please change the state from "Available" to "Borrowed" and update the record.');
+	gs.addInfoMessage('<b>Returning a book:</b> If you wish to return a book please change the state from "Borrowed" to "Returned" and update the record.');
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2018-08-06 08:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5f697744f3b13006bc88020a310c7bf</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>User Instructions - Borrow and Return</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test My Library App" source="x_238623_test_my_l">b531e26f4f2313006bc88020a310c701</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test My Library App">b531e26f4f2313006bc88020a310c701</sys_scope>
+        <sys_update_name>sys_script_a5f697744f3b13006bc88020a310c7bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-06 08:37:19</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5f697744f3b13006bc88020a310c7bf"/>
+</record_update>
